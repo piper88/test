@@ -46,7 +46,7 @@ p.header-text {
 /*END OF HEADER STYLING*/
 
 h1 {
-  font-family: Arial;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   letter-spacing: -1px;
   margin-bottom: 3px;
 }
@@ -94,6 +94,7 @@ h1 {
   margin-left: 120px;
   line-height: 1.5em;
   font-size: 1.3em;
+  font-family: 'Comic Sans MS';
 }
 
 #checkbox-2 {
@@ -103,4 +104,63 @@ h1 {
   margin-left: 520px;
   line-height: 1.5em;
   font-size: 1.3em;
+  font-family: 'Comic Sans MS';
+}
+
+section {
+  display: flex;
+  flex-direction: row: ltr;
+  padding-top: 15px;
+  border-top: 7px dotted #a79f9f;
+
+}
+
+.footer-left {
+  /*margin-left: 50px;*/
+}
+
+.footer-right {
+  margin-left: 650px;
+  /*background-color: rgb(172, 87, 50);*/
+
+}
+
+span {
+  color: white;
+}
+
+.footer-text {
+  display: inline;
+  /*float: right;*/
+}
+
+h2.footer-text {
+  font-family: Yellowtail;
+  float: right;
+  margin-top: -5px;
+  margin-left: -4px;
+}
+
+p.footer-text {
+  font-size: 8px;
+  float: right;
+  margin-top: -35px;
+  margin-right: -50px;
+}
+
+button {
+  background-color: rgb(172, 87, 50);
+  width: 150px;
+  height: 30px;
+
+}
+
+
+.footers-footer {
+  display: absolute;
+  margin-left: 400px;
+}
+
+.small-logo {
+  margin-left: 110px;
 }
