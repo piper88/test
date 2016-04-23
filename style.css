@@ -11,11 +11,11 @@ header {
 }
 
 .header-left {
-  /*margin-left: 50px;*/
+  width: 300px;
 }
 
 .header-right {
-  margin-left: 650px;
+  margin-left: 465px;
 
 }
 
@@ -28,14 +28,14 @@ h2.header-text {
   font-family: Yellowtail;
   float: right;
   margin-top: -5px;
-  margin-left: -4px;
+  margin-right: 175px;
 }
 
 p.header-text {
-  font-size: 5px;
+  font-size: 9px;
   float: right;
-  margin-top: -15px;
-  margin-right: -10px;
+  margin-top: -20px;
+  padding-right: 100px;
 
 }
 
@@ -60,10 +60,11 @@ h1 {
 
 .print {
   float: right;
+
 }
 
 #choco-cake {
-  width: 1025px;
+  width: 1000px;
   margin-top: 20px;
 }
 
@@ -78,7 +79,7 @@ h1 {
 #paper-image {
   margin: auto;
   display: block;
-  width: 1025px;
+  width: 1000px;
 
 }
 
@@ -115,12 +116,8 @@ section {
 
 }
 
-.footer-left {
-  /*margin-left: 50px;*/
-}
-
 .footer-right {
-  margin-left: 650px;
+  margin-left: 400px;
   /*background-color: rgb(172, 87, 50);*/
 
 }
@@ -138,14 +135,14 @@ h2.footer-text {
   font-family: Yellowtail;
   float: right;
   margin-top: -5px;
-  margin-left: -4px;
+  margin-right: 180px;
 }
 
 p.footer-text {
-  font-size: 8px;
+  font-size: 14px;
   float: right;
   margin-top: -35px;
-  margin-right: -50px;
+  margin-left: 75px;
 }
 
 button {
@@ -158,9 +155,9 @@ button {
 
 .footers-footer {
   display: absolute;
-  margin-left: 400px;
+  text-align: center;
 }
 
 .small-logo {
-  margin-left: 110px;
+  margin: auto;
 }
