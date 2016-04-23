@@ -4,34 +4,118 @@
     <meta charset="utf-8">
     <title>Chocolate Pizza</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <header>
-      <div>
-        <img src="logo.png" />
-        <h2>Delicious</h2>
-        <p>THE BEST FOOD BLOG ON THE WEB</p>
+      <div class="header-left">
+        <img src="lab-assets/logo.png" />
+        <h2 class="header-text">Delicious</h2> <br>
+        <p class="header-text">THE BEST FOOD BLOG ON THE WEB</p>
       </div>
 
-      <div>
-        <img src="fb-icon.png" />
-        <img src="twit-icon.png" />
-        <img src="gp-icon.png" />
-        <img src="insta-icon.png" />
-        <img src="flic-icon.png" />
-        <img src="pint-icon.png" />
-        <img src="rss-icon.png" />
-        <img src="mail-icon.png" />
+      <div class="header-right">
+        <img src="lab-assets/fb-icon.png" />
+        <img src="lab-assets/twit-icon.png" />
+        <img src="lab-assets/gp-icon.png" />
+        <img src="lab-assets/insta-icon.png" />
+        <img src="lab-assets/flic-icon.png" />
+        <img src="lab-assets/pint-icon.png" />
+        <img id="header-logo" src="lab-assets/rss-icon.png" />
+        <img src="lab-assets/mail-icon.png" />
       </div>
     </header>
 
     <main>
-      <h1>Chocolate Pizza</h1>
-      <p>POSTED ON 15 DEC 2013/DESSERTS</p>
-      <img src="print-icon.png" />
-      <p>PRINT</p>
+      <!-- Chocolate Pizza title -->
+      <div>
+        <h1>Chocolate Pizza</h1>
+        <p class="title-text">POSTED ON 15 DEC 2013 / DESSERTS</p>
+          <div class="print">
+            <img src="lab-assets/print-icon.png" />
+            <p class="title-text">PRINT</p>
+          </div>
+      </div>
 
-      <
+      <img id="choco-cake" src="lab-assets/choco-pizza.png" />
+
+      <!-- Text -->
+      <article class="text-content">
+        <p>
+          For the fig swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you hav a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely. <br>
+        </p>
+
+        <p>
+          Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolve dand the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled. <br>
+        </p>
+        <p>
+          Using an ice cream machine, pour liquids into the frozen basin and process according to maufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperward. Freeze for at least two hours before serving.
+        </p>
+      </article>
+
+      <!-- Ingredient List -->
+      <div id="notebook-paper">
+        <img id="paper-image" src="lab-assets/list-bg.png" />
+          <div id="checkbox-1">
+            <label>
+              <input type="checkbox" value="first_checkbox"> 1 1/2 cups milk
+            </label><br>
+            <label>
+              <input type="checkbox" value="first_checkbox"> 1/2 cup mascarpone
+            </label><br>
+            <label>
+              <input type="checkbox" value="first_checkbox"> 1/2 tsp pink salt
+            </label><br>
+            <label>
+              <input type="checkbox" value="first_checkbox"> 1 lb. Black Mission Figs
+            </label><br>
+            <label>
+              <input type="checkbox" value="first_checkbox"> 1/2 cup brown sugar
+            </label><br>
+            <label>
+              <input type="checkbox" value="first_checkbox"> 2-4 tbsp water
+            </label>
+          </div>
+
+          <div id="checkbox-2">
+            <label>
+              <input type="checkbox" value="first_checkbox"> 1 1/2 cups heavy cream
+            </label><br>
+            <label>
+              <input type="checkbox" value="first_checkbox"> 1/3 granulated sugar
+            </label><br>
+            <label>
+              <input type="checkbox" value="first_checkbox"> 2 egg yolks
+            </label><br>
+            <label>
+              <input type="checkbox" value="first_checkbox"> 1 lemon, juiced
+            </label><br>
+            <label>
+              <input type="checkbox" value="first_checkbox"> 2 tbsp butter
+            </label><br>
+            <label>
+              <input type="checkbox" value="first_checkbox"> 1 cup honey roasted pecans, roughly chopped
+            </label>
+          </div>
+      </div>
+
+    <section>
+        <div class="footer-left">
+          <img src="lab-assets/van-pic.png" />
+          <h2 class="footer-text">Vanessa Stevenson</h2> <br>
+          <p class="footer-text">Food enthusiast, photography fan. <br>Add a pinch of raw foodism and that's pretty much who I am.</p>
+        </div>
+
+        <div class="footer-right">
+          <button name="button"><span>SHARE RECIPE</span></button>
+        </div>
+
+    </section>
+
+    <hr></hr>
+    <footer> <div class="footers-footer"> <img class="small-logo"
+    src="lab-assets/small-logo.png" /> <p>Delicious &copy; 2013 All Rights
+    Reserved.</p> <p>Proudly published with Ghost.</p> </div> </footer>
 
     </main>
 
